@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.jjockgo">
+    package="info.minsu.jjockgo">
    <application
-        android:label="jjockgo"
+        android:label="쪽고의 모헙"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

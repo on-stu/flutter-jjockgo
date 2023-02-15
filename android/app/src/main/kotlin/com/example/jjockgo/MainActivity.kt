@@ -1,4 +1,4 @@
-package com.example.jjockgo
+package info.minsu.jjockgo
 
 import io.flutter.embedding.android.FlutterActivity
 

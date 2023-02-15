@@ -40,7 +40,7 @@ class BackGround extends SpriteComponent {
       var dt = position.x + size.x;
       position = Vector2.array([size.y * 7 - 5 + dt, 0]);
     } else {
-      position = Vector2.array([position.x - 5, position.y]);
+      position = Vector2.array([position.x - 3, position.y]);
     }
   }
 }

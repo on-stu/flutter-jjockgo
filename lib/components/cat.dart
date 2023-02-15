@@ -1,3 +1,4 @@
+import 'package:flame/collisions.dart';
 import 'package:flame/components.dart';
 import 'package:flame_audio/flame_audio.dart';
 import 'package:jjockgo/constants/game_status.dart';
@@ -36,6 +37,7 @@ class Cat extends SpriteAnimationComponent {
   void onLoad() async {
     position =
         Vector2(deviceSize.x / 2 - size.x / 2, deviceSize.y / 2 - size.y / 2);
+    add(RectangleHitbox());
     super.onLoad();
   }
 
